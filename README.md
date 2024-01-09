@@ -32,7 +32,7 @@
 
 Na visão geral abaixo você encontrará minha experiência de trabalho mais recente:
 
-[<img align="left" height="94px" width="94px" alt="Warpnet" src="https://www.spacex.com/static/images/share.jpg"/>](https://www.spacex.com/)
+[<img align="left" height="94px" width="94px" alt="Warpnet" src="http://www.softure.com.br/site/img/logo.png"/>](http://www.softure.com.br/site/)
 
 **Developer Frontend** \
 [**Softure**]((http://www.softure.com.br/site/)) • Estagiário \
