@@ -5,8 +5,10 @@
 </p>
 
 <p align="left">
+  
   🦄 Linguagens: `Java`, `JavaScript`, `Node.js` \
 </p>
+
 
 <p align="left">
   💌 Contatos: ⤵️
