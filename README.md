@@ -1,7 +1,7 @@
 <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" alt="ilustração de um computador" min-width="400px" max-width="400px" width="400px" align="right">
 
 <p align="left"> 
-  Me chamo Danilo e estudo Engenharia de Software pela Universidade de Brasília (UnB). Atualmente, cursando o 5° semestre, estou em busca de experiências inovadoras e produtivas como desenvolvedor. Meu objetivo é focar, principalmente, em experiências Fullstack para me aprimorar e avançar na minha carreira. Sou aficcionado por tecnologias e matemática, além de ter muito apreço por relações humanas e cálculos. Por fim, estou em busca de evoluir e cada vez mais me especializar no ramo da programação.
+  Me chamo Danilo e estudo Engenharia de Software pela Universidade de Brasília (UnB). Sou aficcionado por tecnologias e matemática, além de ter muito apreço por relações humanas. Por fim, estou em busca de evoluir e cada vez mais me especializar no ramo da programação.
 </p>
 
 <p align="left">
