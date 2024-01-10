@@ -21,8 +21,6 @@
 
 ### Experiência de trabalho
 
-Na visão geral abaixo você encontrará minha experiência de trabalho mais recente:
-
 [<img align="left" height="50px" width="" alt="Warpnet" src="http://www.softure.com.br/site/img/logo.png"/>](http://www.softure.com.br/site/)
 
 **Developer Frontend** \
