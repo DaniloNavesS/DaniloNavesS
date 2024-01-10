@@ -5,7 +5,7 @@
 </p>
 
 <p align="left">
-  🦄 Linguagens: Java, JavaScript e Node.js
+  🦄 Linguagens: `Java`, `JavaScript`, `Node.js`
 </p>
 
 <p align="left">
