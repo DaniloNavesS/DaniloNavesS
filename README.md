@@ -6,7 +6,9 @@
 
 <p align="left">
   
-  🦄 Linguagens: `Java` , `JavaScript` e `Node.js`
+  🦄 Linguagens: `Java`, `JavaScript` e `PHP`
+  <br>
+  🖥️ Tecnologias: `MongoDB`, `PostgreSQL`, `Git`
 </p>
 
 
@@ -25,9 +27,9 @@
 
 [<img align="left" height="50px" width="" alt="Warpnet" src="http://www.softure.com.br/site/img/logo.png"/>](http://www.softure.com.br/site/)
 
-**Developer Frontend** \
+**Developer** \
 [**Softure**]((http://www.softure.com.br/site/)) • Estagiário \
-Linguagens & Tecnologias: `Java`, `JSP`, `jQuery`, `JavaScript` \
+Linguagens & Tecnologias: `Java`, `JSP`, `jQuery`, `JavaScript`, `Laravel`, `PHP` \
 <br/>
 
 
