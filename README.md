@@ -23,13 +23,3 @@
   <img src="https://img.shields.io/badge/-Instagram-DF0174?style=flat-square&labelColor=DF0174&logo=instagram&logoColor=white&link=LINK-DO-SEU-INSTAGRAM" alt="Instagram"/></a>
 </p>
 
-### Experiência de trabalho
-
-[<img align="left" height="50px" width="" alt="Warpnet" src="http://www.softure.com.br/site/img/logo.png"/>](http://www.softure.com.br/site/)
-
-**Developer** \
-[**Softure**]((http://www.softure.com.br/site/)) • Estagiário \
-Linguagens & Tecnologias: `Java`, `JSP`, `jQuery`, `JavaScript`, `Laravel`, `PHP` \
-<br/>
-
-
