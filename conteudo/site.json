@@ -1,0 +1,17 @@
+{
+  "nome": "Danilo Naves",
+  "github": "https://github.com/DaniloNavesS",
+  "apresentacao": "Estudante de Engenharia de Software na UnB. Exploro a interseção entre engenharia de dados, machine learning e sistemas.",
+  "sobre": "Gosto de entender o caminho inteiro: de onde o dado vem, como ele é transformado e o que podemos construir com ele. Meu foco está em Engenharia de Dados e Machine Learning, com interesse em pesquisa e desenvolvimento de sistemas.",
+  "complemento": "Minha trajetória reúne desenvolvimento fullstack, preparação de dados, modelagem preditiva e sistemas embarcados. Aqui compartilho projetos, decisões técnicas e notas de estudo ao longo desse percurso.",
+  "skills": ["Python", "SQL", "PostgreSQL", "Docker", "FastAPI", "scikit-learn", "Git", "C/C++"],
+  "projetos": [
+    {"slug":"inflow","titulo":"InFlow — dados públicos, novas perguntas","categoria":"dados","rotulo":"Engenharia de Dados","resumo":"Ingestão e organização de dados do Senado Federal para explorar despesas, participação e atividade parlamentar.","tags":["Python","PostgreSQL","Docker","Dados públicos"],"arquivo":"inflow.md","repositorio":"https://github.com/DaniloNavesS/inflow","arte":"inflow"},
+    {"slug":"intent-assurance","titulo":"Redes orientadas à experiência","categoria":"pesquisa","rotulo":"Pesquisa em andamento","resumo":"Investigação sobre Intent Assurance, qualidade de experiência em streaming e aprendizado de máquina em redes.","tags":["QoE","IBN","GNN","DRL"],"arquivo":"intent-assurance.md","arte":"rede"},
+    {"slug":"machine-learning","titulo":"Do dado ao modelo","categoria":"ml","rotulo":"Experiência em Machine Learning","resumo":"Preparação de dados, engenharia de atributos e modelos preditivos em problemas de fraude e evasão escolar.","tags":["pandas","scikit-learn","XGBoost","FastAPI"],"arquivo":"machine-learning.md","arte":"ml"}
+  ],
+  "textos": [
+    {"slug":"dados-e-perguntas","titulo":"Antes do pipeline, a pergunta","resumo":"Notas iniciais sobre como uma pergunta analítica orienta a organização dos dados.","categoria":"ENGENHARIA DE DADOS","arquivo":"dados-e-perguntas.md","status":"RASCUNHO PARA REVISÃO"},
+    {"slug":"pesquisa-qoe","titulo":"O que significa uma boa experiência?","resumo":"Um ponto de partida para pensar qualidade de experiência no streaming de vídeo.","categoria":"CADERNO DE PESQUISA","arquivo":"pesquisa-qoe.md","status":"RASCUNHO PARA REVISÃO"}
+  ]
+}
