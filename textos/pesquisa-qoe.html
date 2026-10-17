@@ -8,6 +8,31 @@ body{overflow-x:clip}.hero{width:100vw;margin-left:calc(50% - 50vw);height:100sv
 @media(max-width:900px){.hero-content{padding:22px 32px 28px}.hero-brand>span:last-child{display:none}.hero-navigation{margin-bottom:28px}.hero h1{font-size:clamp(52px,min(8.8vw,10svh),86px)}.card-nav a{padding:12px}.hero-glow{right:-240px}.hero-top>span:last-child{font-size:9px}}
 @media(max-width:600px){.hero{height:100svh;min-height:0;border-radius:0}.hero-content{padding:18px 24px 24px;min-height:0}.hero-navigation{min-height:51px;gap:14px;margin-bottom:26px}.hero-brand .monogram{width:30px;height:30px;font-size:16px}.hero-github{display:none}.card-nav{position:static;transform:none;margin-left:auto;gap:2px;padding:4px;border-radius:13px}.card-nav a{flex-direction:column;gap:5px;font-size:8px;padding:8px 10px;border-radius:9px}.card-nav a>span:first-child{font-size:16px}.hero h1{font-size:clamp(38px,min(11vw,8.5svh),64px);margin:clamp(23px,5svh,46px) 0 22px}.hero-description{font-size:13px;line-height:1.7;max-width:280px;margin-bottom:22px}.hero-bottom{padding-top:22px}.hero-glow{top:35%;right:-220px}.hero-top{font-size:8px}.hero-top>span:last-child{display:none}.hero-meta{font-size:8px}.scroll-cue span{width:34px;height:34px}.hero .pill{padding:12px 17px;font-size:12px}}
 @media(max-height:600px) and (min-width:601px){.hero-content{padding-top:12px;padding-bottom:15px}.hero-navigation{min-height:46px;margin-bottom:12px}.card-nav a{padding:8px 12px}.hero h1{font-size:clamp(35px,8svh,52px);margin:12px 0}.hero-description{max-width:480px;font-size:12px;margin-bottom:12px}.hero-bottom{padding-top:12px}.hero-meta{font-size:8px}.hero .pill{padding:9px 16px}.hero-top{font-size:9px}}
+
+/* Cards de projetos pessoais na página inicial. */
+.project-grid{gap:24px;align-items:stretch}
+.project-card{min-width:0;display:flex;flex-direction:column;background:#e8eadc;border:1px solid #d6dac8;border-radius:22px;overflow:hidden;transition:transform .25s,box-shadow .25s}
+.project-card:hover{transform:translateY(-5px);box-shadow:0 20px 40px #252f1714}
+.project-card .project-visual{height:320px;border-radius:0}
+.project-card .visual-label,.project-card .visual-index{z-index:2}
+.screenshot-art{background:#242a22;display:grid;place-items:center;padding:55px 35px 25px}
+.screenshot-art .visual-label,.screenshot-art .visual-index{color:#d9e2c4}
+.screenshot-art img{width:100%;height:100%;object-fit:contain;object-position:center bottom;filter:drop-shadow(0 15px 18px #0008)}
+.project-card .inflow-art{gap:5px}
+.project-card .inflow-word{font-size:clamp(50px,6vw,86px);margin-left:15px}
+.project-card .stack{transform:rotate(-25deg) scale(.7);flex:0 0 245px}
+.project-card-body{padding:26px 29px 28px;display:flex;flex:1;flex-direction:column;justify-content:space-between;gap:28px}
+.project-kicker{font:10px monospace;letter-spacing:.1em;color:#66734e}
+.project-card h3{font-size:clamp(27px,2.7vw,36px);font-weight:400;letter-spacing:-.05em;margin:10px 0 12px}
+.project-card p{font-size:14px;line-height:1.7;color:#62695b;margin:0;max-width:510px}
+.project-card-bottom{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;flex-wrap:wrap}
+.project-card .tags{margin:0;gap:7px}
+.project-card .tags span{border:1px solid #c9cfb9;border-radius:20px;padding:7px 10px}
+.project-link{display:inline-flex;align-items:center;gap:13px;border-bottom:1px solid #82915a;padding-bottom:5px;font-size:12px;white-space:nowrap}
+.project-link:hover{color:#617329;border-color:#617329}
+.project-link span{font-size:18px}
+@media(max-width:900px){.project-card .project-visual{height:270px}.project-card .inflow-word{font-size:52px}.project-card .stack{transform:rotate(-25deg) scale(.55);flex-basis:180px}}
+@media(max-width:600px){.project-grid{gap:20px}.project-card .project-visual{height:260px}.project-card-body{padding:23px}.project-card .inflow-word{font-size:52px;margin-left:15px}.project-card .stack{transform:rotate(-25deg) scale(.65);flex-basis:160px}.screenshot-art{padding:50px 18px 18px}}
 </style></head><body>
 <a class="skip" href="#principal">Pular para o conteúdo</a><div class="shell">
 
@@ -27,13 +52,6 @@ body{overflow-x:clip}.hero{width:100vw;margin-left:calc(50% - 50vw);height:100sv
 </ul>
 <p>Estas são perguntas que orientam o estudo, e não conclusões já alcançadas.</p></article></main>
 <footer><span>© 2026 Danilo Naves<br>Feito de ideias, código e curiosidade.</span><a href="https://github.com/DaniloNavesS" target="_blank" rel="noopener noreferrer">GitHub ↗</a></footer></div><script>/* Interface sem dependências. O canvas é decorativo e respeita movimento reduzido. */
-const filterButtons = document.querySelectorAll('[data-filter]');
-filterButtons.forEach(button => button.addEventListener('click', () => {
-  filterButtons.forEach(b => b.setAttribute('aria-pressed', String(b === button)));
-  document.querySelectorAll('[data-category]').forEach(card => {
-    card.hidden = button.dataset.filter !== 'todos' && card.dataset.category !== button.dataset.filter;
-  });
-}));
 const canvas = document.getElementById('field');
 if (canvas) {
  const ctx = canvas.getContext('2d');

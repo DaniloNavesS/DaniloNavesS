@@ -1,11 +1,4 @@
 /* Interface sem dependências. O canvas é decorativo e respeita movimento reduzido. */
-const filterButtons = document.querySelectorAll('[data-filter]');
-filterButtons.forEach(button => button.addEventListener('click', () => {
-  filterButtons.forEach(b => b.setAttribute('aria-pressed', String(b === button)));
-  document.querySelectorAll('[data-category]').forEach(card => {
-    card.hidden = button.dataset.filter !== 'todos' && card.dataset.category !== button.dataset.filter;
-  });
-}));
 const canvas = document.getElementById('field');
 if (canvas) {
  const ctx = canvas.getContext('2d');
